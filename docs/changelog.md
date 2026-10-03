@@ -4,6 +4,7 @@ Newest first. **Every change — feature, fix, design tweak, schema change — g
 
 ## 2026-10-03
 
+- **Repo:** published to GitHub (`mt-y0/mt-macros`, branch `main`) with a root `.gitignore` (node_modules, builds, APKs, Android build/local files, keystores, `.env`). → [development.md](development.md)
 - **Fix:** opening the **Byte** tab during a model download no longer hides the download or starts loading the old model next to it (`settle()` + download guard in `ensureLoaded()`, `ai/engine.ts`); Byte shows the download progress instead of "Asleep". → [ai.md](ai.md#getting-a-model-settings--ai-brain)
 - **Feature:** new **Days** tab (calendar): every day gets a **score out of 10** (food 4, water 2, sleep 3, creatine 1) with food/water/sleep dots, Week/Month views, tap a day for its breakdown, and a **Report** card (avg score, best day, days logged, good days per part, avg kcal/protein/sleep, weight change, creatine days). `dayScore`, `SCORE_MAX`, `weekStart` in `logic.ts`; `pages/Calendar.tsx`; calendar tab icon. → [logic.md](logic.md#day-score--calendar-days-tab), [design.md](design.md#days-calendar-tab), [roadmap.md](roadmap.md), [architecture.md](architecture.md)
 - **Build:** APK `0.0.5-pre` / 5. Byte's final reply drops trailing commas/dashes small models leave. → [development.md](development.md#android-apk)
