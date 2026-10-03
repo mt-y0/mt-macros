@@ -1,0 +1,35 @@
+# Dependencies & builds
+node_modules/
+dist/
+dist-ssr/
+*.local
+.cache/
+*.tsbuildinfo
+
+# Android builds & local config
+*.apk
+*.aab
+app/android/build/
+app/android/app/build/
+app/android/.gradle/
+app/android/local.properties
+*.jks
+*.keystore
+
+# Secrets
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.sw?
+
+# Local screenshots
+screenshots/

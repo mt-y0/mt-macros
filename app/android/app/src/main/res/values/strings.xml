@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MT Macro</string>
+    <string name="title_activity_main">MT Macro</string>
+    <string name="package_name">com.mtmad.mtmacro</string>
+    <string name="custom_url_scheme">com.mtmad.mtmacro</string>
+</resources>
